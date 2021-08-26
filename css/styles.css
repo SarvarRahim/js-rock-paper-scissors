@@ -1,0 +1,65 @@
+.ping-pong__rock {
+  width: 205px;
+  height: 205px;
+  background-image: url("../img/btn-paper.svg");
+  background-repeat: no-repeat;
+}
+
+.ping-pong__paper {
+  width: 205px;
+  height: 205px;
+  background-image: url("../img/btn-scissors.svg");
+  background-repeat: no-repeat;
+}
+
+.ping-pong__scissors {
+  width: 205px;
+  height: 205px;
+  background-image: url("../img/btn-rock.svg");
+  background-repeat: no-repeat;
+}
+
+.ping-pong__link {
+  display: inline-block !important;
+  border: 2px solid #ebebeb;
+  background-color: transparent;
+  padding: 12px 32px;
+}
+
+.btn {
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .ping-pong__head {
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+
+  .ping-pong__types {
+    margin-bottom: 20px;
+  }
+
+  .ping-pong__bot-score {
+    margin-top: 20px;
+  }
+
+  .ping-pong__rock {
+    margin: 0 !important;
+    margin-bottom: 15px !important;
+  }
+
+  .ping-pong__paper {
+    margin: 0 !important;
+    margin-bottom: 15px !important;
+  }
+
+  .ping-pong__scissors {
+    margin: 0 !important;
+  }
+}
